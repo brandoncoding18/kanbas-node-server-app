@@ -1,4 +1,4 @@
-import courses from "./courses.json" assert { type: "json" };
+import courses from "./courses.json";
 import modules from "./modules.json" assert { type: "json" };
 import assignments from "./assignments.json" assert { type: "json" };
 import users from "./users.json" assert { type: "json" };
