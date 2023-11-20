@@ -11,6 +11,7 @@ function CourseRoutes(app) {
     res.send(course);
   });
 
+  /*
   app.put("/api/courses/:id/:name/:number/:startDate/:endDate", (req, res) => {
     const {id, name, number, startDate, endDate} = req.params; 
     Database.courses = Database.courses.map((c) =>
@@ -18,6 +19,20 @@ function CourseRoutes(app) {
     );
     res.sendStatus(204);
   });
+  */
+  app.put("/api/courses/:id", (req, res) => {
+
+    console.log("put request body: " + req.data)
+		const { id } = req.params;
+		const course = req.body;
+		Database.courses = Database.courses.map((c) =>
+			c._id === id ? {...course } : c
+		);
+    console.log("Database courses: " + Database.courses)
+		res.sendStatus(204);
+	});
+
+
 
   app.delete("/api/courses/:id", (req, res) => {
     const { id } = req.params;
