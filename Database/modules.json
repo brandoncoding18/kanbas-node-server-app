@@ -1,0 +1,7 @@
+[ { "_id": "1", "user": "121", "course": "RS101", "name" : "Intro", "description" : "Intro to RS101"},
+{ "_id": "2", "user": "121", "course": "RS101", "name" : "Lab 1", "description" : "First Lab where we practice extracting data from the JSON format"},
+{ "_id": "3", "user": "121", "course": "RS102", "name" : "Intro", "description" : "Intro to RS102"},
+{ "_id": "4", "user": "121", "course": "RS103", "name" : "Intro", "description" : "Intro to RS103"},
+{ "_id": "5", "user": "121", "course": "RS106", "name" : "Intro", "description" : "Intro to RS106"},
+{ "_id": "6", "user": "121", "course": "RS107", "name" : "Intro", "description" : "Intro to RS107"},
+{ "_id": "7", "user": "121", "course": "RS108", "name" : "Intro", "description" : "Intro to RS108"}]
